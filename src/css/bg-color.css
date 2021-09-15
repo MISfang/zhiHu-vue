@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  font-family: "HYHeiLiZhiTiJ" !important;
+  padding: -100px;
+  background-image: linear-gradient(125deg,#4f9300,#00c6ff,#c0faff,#467f8e,#e74c3c,#55babe,#a24889,#69518d);
+  background-size: 800%;
+  animation: bganimation 20s infinite;
+}
+
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+/* 全局的图片阴影 */
+.my-image-shadow{
+  box-shadow: 10px 10px 15px rgba(0,0,0, 0.4);
+}
+.my-image-border {
+  border: 2px solid white;
+}
